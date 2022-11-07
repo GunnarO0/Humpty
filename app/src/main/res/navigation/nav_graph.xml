@@ -3,14 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/LogIn">
 
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.humpty.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
-
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
@@ -19,10 +18,13 @@
         android:id="@+id/SecondFragment"
         android:name="com.example.humpty.SecondFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        tools:layout="@layout/fragment_second"/>
+    <fragment
+        android:id="@+id/LogIn"
+        android:name="com.example.humpty.LogIn"
+        android:label="LogIn" >
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_LogIn_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>

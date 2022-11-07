@@ -9,4 +9,17 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Generic accessibility image description -->
+    <string name="imgdesc">This is an image.</string>
+
+    <!--Log in page -->
+    <string name="login_email">SIGN IN WITH EMAIL</string>
+    <string name="login_apple">SIGN IN WITH APPLE</string>
+    <string name="login_facebook">SIGN IN WITH FACEBOOK</string>
+
+
 </resources>
