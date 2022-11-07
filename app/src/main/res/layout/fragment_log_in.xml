@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_primary"
-    tools:context=".LogIn">
+    tools:context=".LogInFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/emailButton"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="331dp"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             app:strokeWidth="10dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/appleButton"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="331dp"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             app:strokeWidth="10dp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/facebookButton"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="331dp"
             android:layout_height="wrap_content"
@@ -80,5 +80,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_white_transparent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

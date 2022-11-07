@@ -21,10 +21,30 @@
         tools:layout="@layout/fragment_second"/>
     <fragment
         android:id="@+id/LogIn"
-        android:name="com.example.humpty.LogIn"
-        android:label="LogIn" >
+        android:name="com.example.humpty.LogInFragment"
+        android:label="LogIn"
+        tools:layout="@layout/fragment_log_in">
         <action
-            android:id="@+id/action_LogIn_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_LogIn_to_EmailLogIn"
+            app:destination="@id/EmailLogIn" />
     </fragment>
+    <activity
+        android:id="@+id/loggingInActivity"
+        android:name="com.example.humpty.LoggingInActivity"
+        android:label="activity_logging_in"
+        tools:layout="@layout/activity_logging_in" />
+    <fragment
+        android:id="@+id/EmailLogIn"
+        android:name="com.example.humpty.EmailLogInFragment"
+        android:label="fragment_email_log_in2"
+        tools:layout="@layout/fragment_email_log_in" >
+        <action
+            android:id="@+id/action_EmailLogIn_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.humpty.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
 </navigation>

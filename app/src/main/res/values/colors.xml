@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="color_primary">#F18805</color>
-    <color name="color_primary_variant">#EDA346</color>
+    <color name="color_primary_variant">#FF6F22</color>
     <color name="color_secondary">#FFFFFF</color>
-    <color name="color_on_secondary">#FF9800</color>
-    <color name="color_on_primary">#000000</color>
+    <color name="color_on_secondary">#6C6C6C</color>
+    <color name="color_on_primary">#FFFFFF</color>
 </resources>
