@@ -1,19 +1,30 @@
 package com.example.humpty;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.navigation.fragment.NavHostFragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
+
+import com.example.humpty.databinding.FragmentLogInBinding;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link EmailLogInFragment#newInstance} factory method to
+ * Use the {@link FragmentLogIn#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class EmailLogInFragment extends Fragment {
+
+
+
+public class FragmentLogIn extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +35,7 @@ public class EmailLogInFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public EmailLogInFragment() {
+    public FragmentLogIn() {
         // Required empty public constructor
     }
 
@@ -34,11 +45,11 @@ public class EmailLogInFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment EmailLogInFragment.
+     * @return A new instance of fragment LogIn.
      */
     // TODO: Rename and change types and number of parameters
-    public static EmailLogInFragment newInstance(String param1, String param2) {
-        EmailLogInFragment fragment = new EmailLogInFragment();
+    public static FragmentLogIn newInstance(String param1, String param2) {
+        FragmentLogIn fragment = new FragmentLogIn();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -46,19 +57,36 @@ public class EmailLogInFragment extends Fragment {
         return fragment;
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
+
+    private FragmentLogInBinding binding;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_email_log_in, container, false);
+        binding = FragmentLogInBinding.inflate(inflater, container, false);
+        return binding.getRoot();
     }
+
+    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+
+        binding.emailButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(FragmentLogIn.this)
+                        .navigate(R.id.action_LogIn_to_EmailLogIn);
+            }
+        });
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
+    }
+
+
 }
