@@ -17,7 +17,7 @@
         android:id="@+id/fragment_container_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.humpty.FragmentHome" />
+        android:name="com.example.humpty.FragmentEvents" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:context=".ActivityHome"
+        tools:context=".ActivityEvents"
         tools:layout_editor_absoluteX="16dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView

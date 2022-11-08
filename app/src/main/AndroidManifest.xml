@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Humpty"
         tools:targetApi="31">
         <activity
+            android:name=".ActivitySocial"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ActivityEvents"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ActivityHome"
             android:exported="false">
             <meta-data
