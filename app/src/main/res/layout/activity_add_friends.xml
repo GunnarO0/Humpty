@@ -34,7 +34,7 @@
                     android:layout_width="5dp"
                     android:layout_height="68dp"
                     android:layout_weight="1"
-                    android:src="@drawable/person_icon"
+                    android:src="@drawable/icon_gunnar"
                     android:translationY="4dp" />
 
                 <TextView
@@ -69,7 +69,7 @@
                     android:layout_width="5dp"
                     android:layout_height="68dp"
                     android:layout_weight="1"
-                    android:src="@drawable/person_icon"
+                    android:src="@drawable/icon_ethan"
                     android:translationY="4dp" />
 
                 <TextView
@@ -104,7 +104,7 @@
                     android:layout_width="5dp"
                     android:layout_height="68dp"
                     android:layout_weight="1"
-                    android:src="@drawable/person_icon"
+                    android:src="@drawable/icon_erik"
                     android:translationY="4dp" />
 
                 <TextView
@@ -139,7 +139,7 @@
                     android:layout_width="5dp"
                     android:layout_height="68dp"
                     android:layout_weight="1"
-                    android:src="@drawable/person_icon"
+                    android:src="@drawable/icon_robert"
                     android:translationY="4dp" />
 
                 <TextView
@@ -174,7 +174,7 @@
                     android:layout_width="5dp"
                     android:layout_height="68dp"
                     android:layout_weight="1"
-                    android:src="@drawable/person_icon"
+                    android:src="@drawable/icon_markel"
                     android:translationY="4dp" />
 
                 <TextView
@@ -359,7 +359,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="15dp"
                     android:layout_weight="1"
-                    android:text="Joe"
+                    android:text="DudeGuy369"
                     android:textAlignment="viewStart"
                     android:textColor="#000000"
                     android:textSize="24sp" />
