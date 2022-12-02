@@ -20,7 +20,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".SetDate"
+            android:name=".ActivitySetDate"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="@string/title_activity_set_date"
@@ -40,14 +40,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".AddFriends"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".testActivity"
+            android:name=".ActivityAddFriends"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
