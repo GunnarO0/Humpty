@@ -6,22 +6,8 @@
     app:startDestination="@id/LogIn">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.humpty.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-        <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.humpty.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second"/>
-    <fragment
         android:id="@+id/LogIn"
-        android:name="com.example.humpty.LogInFragment"
+        android:name="com.example.humpty.FragmentLogIn"
         android:label="LogIn"
         tools:layout="@layout/fragment_log_in">
         <action
@@ -30,21 +16,29 @@
     </fragment>
     <activity
         android:id="@+id/loggingInActivity"
-        android:name="com.example.humpty.LoggingInActivity"
+        android:name="com.example.humpty.ActivityLoggingIn"
         android:label="activity_logging_in"
         tools:layout="@layout/activity_logging_in" />
     <fragment
         android:id="@+id/EmailLogIn"
-        android:name="com.example.humpty.EmailLogInFragment"
+        android:name="com.example.humpty.FragmentEmailLogIn"
         android:label="fragment_email_log_in2"
         tools:layout="@layout/fragment_email_log_in" >
         <action
             android:id="@+id/action_EmailLogIn_to_mainActivity"
             app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/action_EmailLogIn_to_homeFragment2"
+            app:destination="@id/Home" />
     </fragment>
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.example.humpty.MainActivity"
+        android:name="com.example.humpty.ActivityMain"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.example.humpty.FragmentHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
