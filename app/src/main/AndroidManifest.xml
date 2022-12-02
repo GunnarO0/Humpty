@@ -20,6 +20,12 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".SetDate"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_set_date"
+            android:theme="@style/Theme.Humpty.Fullscreen" />
+        <activity
             android:name=".ActivityPendingEvent"
             android:exported="false">
             <meta-data
