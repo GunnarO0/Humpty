@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".HomeScreen">
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="73dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/icon_ethan"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="85dp"
+        android:layout_height="43dp"
+        android:text="HI, ETHAN!"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bell"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="28dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
