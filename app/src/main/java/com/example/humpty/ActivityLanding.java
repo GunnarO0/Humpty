@@ -43,7 +43,6 @@ public class ActivityLanding extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),ActivityEvents.class);
                 startActivity(i);
-
             }
         });
 
@@ -54,7 +53,6 @@ public class ActivityLanding extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), ActivityAddFriends.class);
                 startActivity(i);
-
             }
         });
 
@@ -101,6 +99,25 @@ public class ActivityLanding extends AppCompatActivity {
                     ratingCount += .5;
                     ratingText.setText(">= " + ratingCount);
                 }
+            }
+        });
+
+        final ImageButton date = (ImageButton) findViewById(R.id.date);
+        date.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),ActivitySetDate.class);
+                startActivity(i);
+            }
+        });
+        final ImageButton time = (ImageButton) findViewById(R.id.time);
+        time.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),ActivitySetTimer.class);
+                startActivity(i);
             }
         });
 

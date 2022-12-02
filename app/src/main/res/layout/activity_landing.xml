@@ -7,7 +7,7 @@
     tools:context=".ActivityLanding">
 
     <ImageButton
-        android:id="@+id/imageButton24"
+        android:id="@+id/time"
         android:layout_width="58dp"
         android:layout_height="59dp"
         android:layout_marginTop="12dp"
@@ -20,14 +20,14 @@
         app:srcCompat="@drawable/stopwatch" />
 
     <ImageButton
-        android:id="@+id/imageButton23"
+        android:id="@+id/date"
         android:layout_width="56dp"
         android:layout_height="57dp"
         android:layout_marginTop="14dp"
         android:background="#0000"
         android:scaleX=".8"
         android:scaleY=".8"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton24"
+        app:layout_constraintEnd_toStartOf="@+id/time"
         app:layout_constraintTop_toBottomOf="@+id/ratingDecrement"
         app:srcCompat="@drawable/calendar" />
 

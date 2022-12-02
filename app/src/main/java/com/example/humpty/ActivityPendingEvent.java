@@ -16,14 +16,12 @@ public class ActivityPendingEvent extends AppCompatActivity {
 
 
         final ImageButton button = (ImageButton) findViewById(R.id.buttonStartVoting);
-
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),ActivityHome.class);
                 startActivity(i);
-
             }
         });
     }

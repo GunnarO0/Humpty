@@ -8,7 +8,7 @@
     android:background="#FFFFFF"
     android:theme="@style/ThemeOverlay.Humpty.FullscreenContainer"
     android:visibility="visible"
-    tools:context=".EventInfo"
+    tools:context=".ActivityEventInfo"
     tools:visibility="visible">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton31"
+        android:id="@+id/backButton"
         android:layout_width="141dp"
         android:layout_height="150dp"
         android:background="#0000"
@@ -88,8 +88,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="369dp"
-        android:layout_height="343dp"
+        android:layout_width="362dp"
+        android:layout_height="225dp"
         android:layout_marginTop="88dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
