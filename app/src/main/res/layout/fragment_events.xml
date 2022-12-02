@@ -6,52 +6,85 @@
     android:layout_height="match_parent"
     tools:context=".FragmentEvents">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="349dp"
-        android:layout_height="262dp"
-        android:background="#0000"
-        android:scaleX=".85"
-        android:scaleY=".85"
-        app:srcCompat="@drawable/button_event2"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="367dp" />
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="375dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="103dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="373dp"
-        android:layout_height="295dp"
-        android:background="#0000"
-        android:scaleX=".85"
-        android:scaleY=".85"
-        app:srcCompat="@drawable/button_event1"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="85dp" />
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="634dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginLeft="5dp"
+                android:background="#0000"
+                android:scaleX=".85"
+                android:scaleY=".85"
+                app:srcCompat="@drawable/button_chimes" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="#0000"
+                android:scaleX=".85"
+                android:scaleY=".85"
+                app:srcCompat="@drawable/button_triplets" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="#0000"
+                android:scaleX=".85"
+                android:scaleY=".85"
+                app:srcCompat="@drawable/button_pending" />
+        </LinearLayout>
+    </ScrollView>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="156dp"
-        android:layout_height="52dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/avenir_next_condensed"
         android:text="Events"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="33dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#0000"
-        app:srcCompat="@drawable/navbar"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="638dp" />
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
         android:background="#0000"
-        app:srcCompat="@drawable/hamburgermenu"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="33dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamburgermenu" />
 </androidx.constraintlayout.widget.ConstraintLayout>
