@@ -12,13 +12,11 @@ public class ActivityLanding extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen);
+        setContentView(R.layout.activity_landing);
 
-        final ImageButton homeSocial = (ImageButton) findViewById(R.id.landingSocial);
-        //final ImageButton homeEvents = (ImageButton) findViewById(R.id.landingEvents);
-        final ImageButton create = (ImageButton) findViewById(R.id.landingCreateEvent);
-        
-        homeSocial.setOnClickListener(new View.OnClickListener() {
+
+        final ImageButton social = (ImageButton) findViewById(R.id.landingSocial);
+        social.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -27,17 +25,19 @@ public class ActivityLanding extends AppCompatActivity {
 
             }
         });
-        
-//        homeEvents.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View view) {
-//                Intent i = new Intent(getApplicationContext(),ActivityEvents.class);
-//                startActivity(i);
-//
-//            }
-//        });
 
+        final ImageButton events = (ImageButton) findViewById(R.id.landingEvents);
+        events.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),ActivityEvents.class);
+                startActivity(i);
+
+            }
+        });
+
+        final ImageButton create = (ImageButton) findViewById(R.id.landingCreateEvent);
         create.setOnClickListener(new View.OnClickListener() {
 
             @Override
