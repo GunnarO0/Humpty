@@ -33,16 +33,18 @@
         android:layout_width="156dp"
         android:layout_height="52dp"
         android:text="Events"
-        tools:layout_editor_absoluteX="113dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="112dp"
         tools:layout_editor_absoluteY="33dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#0000"
         app:srcCompat="@drawable/navbar"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="629dp" />
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="638dp" />
 
     <ImageButton
         android:id="@+id/imageButton26"

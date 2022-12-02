@@ -10,6 +10,7 @@
         android:id="@+id/imageButton25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#0000"
         app:srcCompat="@drawable/hamburgermenu"
         tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="33dp" />
