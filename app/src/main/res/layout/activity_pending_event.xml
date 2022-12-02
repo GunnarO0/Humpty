@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PendingEvent">
+
+    <FrameLayout
+        android:layout_width="413dp"
+        android:layout_height="347dp"
+        android:background="@color/color_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/buttonStartVoting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:background="#0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_solidround" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_startvoting" />
+
+    <TextView
+        android:layout_width="186dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="356dp"
+        android:fontFamily="@font/avenir_next_condensed"
+        android:text="Pending Event"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color_primary_variant"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_white_transparent" />
+
+    <ScrollView
+        android:layout_width="364dp"
+        android:layout_height="315dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:minHeight="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_gunnar"
+                    android:translationY="4dp" />
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/avenir_next_condensed"
+                    android:text="Gunnar Ortega"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_erik"
+                    android:translationY="4dp" />
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/avenir_next_condensed"
+                    android:text="Erik Thompson"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/nash"
+                    android:translationY="4dp" />
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/avenir_next_condensed"
+                    android:text="Nash"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_ethan"
+                    android:translationY="4dp" />
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/avenir_next_condensed"
+                    android:text="Ethan Riley"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
