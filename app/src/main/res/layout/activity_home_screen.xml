@@ -33,7 +33,7 @@
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="142dp"
-        android:layout_height="54dp"
+        android:layout_height="40dp"
         app:srcCompat="@drawable/button_roundedborder"
         tools:layout_editor_absoluteX="140dp"
         tools:layout_editor_absoluteY="151dp" />
@@ -41,9 +41,9 @@
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="142dp"
-        android:layout_height="54dp"
+        android:layout_height="40dp"
         app:srcCompat="@drawable/button_roundedborder"
-        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteX="140dp"
         tools:layout_editor_absoluteY="298dp" />
 
     <TextView
@@ -71,7 +71,7 @@
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="142dp"
-        android:layout_height="54dp"
+        android:layout_height="40dp"
         app:srcCompat="@drawable/button_roundedborder"
         tools:layout_editor_absoluteX="140dp"
         tools:layout_editor_absoluteY="229dp" />
@@ -79,15 +79,15 @@
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="142dp"
-        android:layout_height="54dp"
+        android:layout_height="40dp"
         app:srcCompat="@drawable/button_roundedborder"
-        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteX="140dp"
         tools:layout_editor_absoluteY="351dp" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="97dp"
-        android:layout_height="51dp"
+        android:layout_width="93dp"
+        android:layout_height="40dp"
         android:text="AREA"
         android:textAlignment="center"
         android:textColor="#F08707"
@@ -103,8 +103,8 @@
         android:textAlignment="center"
         android:textColor="#F08707"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="373dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="359dp" />
 
     <ImageButton
         android:id="@+id/imageButton14"
@@ -135,32 +135,44 @@
 
     <ImageButton
         android:id="@+id/imageButton18"
-        android:layout_width="107dp"
+        android:layout_width="123dp"
         android:layout_height="54dp"
+        android:background="#0000"
+        android:scaleX=".70"
+        android:scaleY=".70"
         app:srcCompat="@drawable/edit"
-        tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="151dp" />
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="144dp" />
 
     <ImageButton
         android:id="@+id/imageButton19"
         android:layout_width="48dp"
-        android:layout_height="39dp"
+        android:layout_height="54dp"
+        android:background="#0000"
+        android:scaleX=".70"
+        android:scaleY=".70"
         app:srcCompat="@drawable/leftarrow"
         tools:layout_editor_absoluteX="300dp"
-        tools:layout_editor_absoluteY="230dp" />
+        tools:layout_editor_absoluteY="221dp" />
 
     <ImageButton
         android:id="@+id/imageButton20"
         android:layout_width="45dp"
-        android:layout_height="40dp"
+        android:layout_height="54dp"
+        android:background="#0000"
+        android:scaleX=".70"
+        android:scaleY=".70"
         app:srcCompat="@drawable/rightarrow"
-        tools:layout_editor_absoluteX="359dp"
-        tools:layout_editor_absoluteY="229dp" />
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="221dp" />
 
     <ImageButton
         android:id="@+id/imageButton21"
         android:layout_width="47dp"
-        android:layout_height="43dp"
+        android:layout_height="54dp"
+        android:background="#0000"
+        android:scaleX=".70"
+        android:scaleY=".70"
         app:srcCompat="@drawable/leftarrow"
         tools:layout_editor_absoluteX="301dp"
         tools:layout_editor_absoluteY="293dp" />
@@ -168,25 +180,34 @@
     <ImageButton
         android:id="@+id/imageButton22"
         android:layout_width="46dp"
-        android:layout_height="41dp"
+        android:layout_height="54dp"
+        android:background="#0000"
+        android:scaleX=".70"
+        android:scaleY=".70"
         app:srcCompat="@drawable/rightarrow"
         tools:layout_editor_absoluteX="358dp"
-        tools:layout_editor_absoluteY="295dp" />
+        tools:layout_editor_absoluteY="293dp" />
 
     <ImageButton
         android:id="@+id/imageButton23"
         android:layout_width="50dp"
-        android:layout_height="46dp"
+        android:layout_height="54dp"
+        android:background="#0000"
+        android:scaleX=".70"
+        android:scaleY=".70"
         app:srcCompat="@drawable/calendar"
-        tools:layout_editor_absoluteX="294dp"
-        tools:layout_editor_absoluteY="355dp" />
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="347dp" />
 
     <ImageButton
         android:id="@+id/imageButton24"
         android:layout_width="49dp"
-        android:layout_height="45dp"
+        android:layout_height="54dp"
+        android:background="#0000"
+        android:scaleX=".70"
+        android:scaleY=".70"
         app:srcCompat="@drawable/stopwatch"
         tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="356dp" />
+        tools:layout_editor_absoluteY="347dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
