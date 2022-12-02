@@ -275,4 +275,52 @@
         app:layout_constraintTop_toBottomOf="@+id/divider4"
         app:srcCompat="@drawable/edit" />
 
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/avenir_next_condensed"
+        android:text="2 MI"
+        android:textAlignment="center"
+        android:textColor="#F08707"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/avenir_next_condensed"
+        android:text=">= 3.5"
+        android:textAlignment="center"
+        android:textColor="#F08707"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/avenir_next_condensed"
+        android:text="3 MIN"
+        android:textAlignment="center"
+        android:textColor="#F08707"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/avenir_next_condensed"
+        android:text="$$$$"
+        android:textAlignment="center"
+        android:textColor="#F08707"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="221dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
