@@ -21,7 +21,7 @@
         android:background="#0000"
         android:scaleX=".85"
         android:scaleY=".85"
-        app:srcCompat="@drawable/Group50"
+        app:srcCompat="@drawable/button_event1"
         tools:layout_editor_absoluteX="53dp"
         tools:layout_editor_absoluteY="85dp" />
 
@@ -32,7 +32,7 @@
         android:background="#0000"
         android:scaleX=".85"
         android:scaleY=".85"
-        app:srcCompat="@drawable/Group51"
+        app:srcCompat="@drawable/button_event2"
         tools:layout_editor_absoluteX="53dp"
         tools:layout_editor_absoluteY="367dp" />
 

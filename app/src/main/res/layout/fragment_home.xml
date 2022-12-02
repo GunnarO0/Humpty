@@ -51,6 +51,7 @@
         android:layout_width="149dp"
         android:layout_height="32dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/avenir_next_condensed"
         android:text="829 Ben Hur Rd"
         android:textAlignment="center"
         android:textColor="@android:color/black"
@@ -198,13 +199,14 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="215dp"
-        android:layout_height="49dp"
+        android:layout_width="287dp"
+        android:layout_height="57dp"
         android:layout_marginStart="52dp"
         android:layout_marginBottom="76dp"
+        android:fontFamily="@font/avenir_next_condensed"
         android:text="The Chimes"
         android:textColor="@color/color_on_primary"
-        android:textSize="34sp"
+        android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="parent" />
